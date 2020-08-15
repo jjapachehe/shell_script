@@ -9,7 +9,6 @@ date=$(date)
 # get the topic
 topic="$1"
 
-
 # filename to write 
 filename="${HOME}/${topic}notes.txt"
 
