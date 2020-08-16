@@ -20,7 +20,7 @@ if [[ -e $filename ]]; then
     exit 1
 fi
 
-if type "$scriptname"; then
+if type "$scriptname" 2> /dev/null; then
     echo "There is already a command with name ${scriptname}"
     exit 1
 fi

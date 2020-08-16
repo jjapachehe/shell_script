@@ -19,5 +19,5 @@ if [[ $note ]]; then
     echo "$(date): $note" >> "$filename"
     echo "note '$note' saved to $filename"
 else
-    echo "No input; note wasn't saved."
+    echo "No input; note wasn't saved." 1>&2
 fi
