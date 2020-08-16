@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Author Jhon Apache
+
 dt=$(date --date yesterday "+%Y%m%d")
 log_file=backup_$dt.txt
 

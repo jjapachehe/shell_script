@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # This program answer for Y or N, also check if the user type the correct word
+# Author Jhon Apache
 
 echo -n "Are you sure (Y/N)? "
 
